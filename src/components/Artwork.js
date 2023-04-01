@@ -4,15 +4,21 @@ import Button from 'react-bootstrap/Button'
 
 const Artwork = (props) => {
 
+  // const handleOnClick = (e) => {
+  //   console.log('handle from button'+ e.target);
+  //   console.log(descr);
+  // } 
+
+  const {imgSrc, descr, handleOnClick} = props;
   return (
     <Card style={{width: '18rem'}} className='artwork'>
-        <Card.Img variant='top' src={props.imgSrc} />
+        <Card.Img variant='top' src={imgSrc} />
         <Card.Body>
-            <Card.Title>{props.title}</Card.Title>
+            <Card.Title>AI ArtWork</Card.Title>
             <Card.Text>
-                {props.descr}
+                {descr}
             </Card.Text>
-            <Button variant="primary">View Details</Button>
+            <Button onClick={handleOnClick} variant="primary">View Details</Button>
         </Card.Body>
     </Card>
   )

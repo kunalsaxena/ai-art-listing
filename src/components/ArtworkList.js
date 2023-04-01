@@ -1,13 +1,21 @@
 import React from 'react'
 import Artwork from './Artwork'
-import {items} from './data.js'
+import {items} from '../data/deepai_data'
 
-const dataList = items.map(
-  props => 
-  <Artwork {...props} />
-);
+
 
 const ArtworkList = () => {
+
+  const handleOnClick = (e) => {
+    console.log('handle from button'+ e.target);
+    // console.log(descr);
+  };
+
+  const dataList = items.map(
+    (artwork, index) => 
+    <Artwork key={index} {...artwork} handleOnClick={handleOnClick} />
+  );
+  
 
   return (
     <div className='artworklist'>
