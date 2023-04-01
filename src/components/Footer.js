@@ -15,11 +15,11 @@ const Footer = () => {
                     <a href="tel:0121234" className="contact-link">(123) 456-789</a>
                     <div className="footer-social">
                     <ul>
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i className="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i className="fa fa-rss"></i></a></li>
+                    <li><a href="/"><i className="fa fa-facebook"></i></a></li>
+                    <li><a href="/"><i className="fa fa-twitter"></i></a></li>
+                    <li><a href="/"><i className="fa fa-linkedin"></i></a></li>
+                    <li><a href="/"><i className="fa fa-youtube"></i></a></li>
+                    <li><a href="/"><i className="fa fa-rss"></i></a></li>
                     </ul>
                     </div>
                 </div>
@@ -31,19 +31,19 @@ const Footer = () => {
                 <div className="footer-widget-content">
                 <div className="media">
                     <div className="media-left">
-                        <a href="#"><img className="media-object" src="http://placehold.it/60x60" alt="..." /></a>
+                        <a href="/"><img className="media-object" src="http://placehold.it/60x60" alt="..." /></a>
                     </div>
                     <div className="media-body">
-                        <p><a href="#">vulputate velit esse consequat. </a></p>
-                        <span>January 21, 2023 </span>
+                        <p><a href="/">vulputate velit esse consequat. </a></p>
+                        <span>January 20, 2023 </span>
                     </div>
                 </div>
                 <div className="media">
                     <div className="media-left">
-                        <a href="#."><img className="media-object" src="http://placehold.it/60x60" alt="..." /></a>
+                        <a href="/."><img className="media-object" src="http://placehold.it/60x60" alt="..." /></a>
                     </div>
                     <div className="media-body">
-                        <p><a href="#">vulputate velit esse consequat. </a></p>
+                        <p><a href="/">vulputate velit esse consequat. </a></p>
                         <span>September 30, 2022 </span>
                     </div>
                 </div>
@@ -72,12 +72,12 @@ const Footer = () => {
                 <div className="footer-widget-content">
                 <div className="images-gellary">
                     <ul>
-                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 01" /></a></li>
-                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 02" /></a></li>
-                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 03" /></a></li>
-                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 04" /></a></li>
-                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 05" /></a></li>
-                    <li><a href="#"><img src="http://placehold.it/85x85" alt="Instagram 06" /></a></li>
+                    <li><a href="/"><img src="http://placehold.it/85x85" alt="Instagram 01" /></a></li>
+                    <li><a href="/"><img src="http://placehold.it/85x85" alt="Instagram 02" /></a></li>
+                    <li><a href="/"><img src="http://placehold.it/85x85" alt="Instagram 03" /></a></li>
+                    <li><a href="/"><img src="http://placehold.it/85x85" alt="Instagram 04" /></a></li>
+                    <li><a href="/"><img src="http://placehold.it/85x85" alt="Instagram 05" /></a></li>
+                    <li><a href="/"><img src="http://placehold.it/85x85" alt="Instagram 06" /></a></li>
                     </ul>
                 </div>
                 </div>
