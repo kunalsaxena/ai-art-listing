@@ -35,7 +35,7 @@ const Footer = () => {
                     </div>
                     <div className="media-body">
                         <p><a href="#">vulputate velit esse consequat. </a></p>
-                        <span>September 30, 2016 </span>
+                        <span>January 21, 2023 </span>
                     </div>
                 </div>
                 <div className="media">
@@ -44,7 +44,7 @@ const Footer = () => {
                     </div>
                     <div className="media-body">
                         <p><a href="#">vulputate velit esse consequat. </a></p>
-                        <span>September 30, 2016 </span>
+                        <span>September 30, 2022 </span>
                     </div>
                 </div>
                 </div>

@@ -1,20 +1,24 @@
+import img1 from '../assets/images/image1.jpeg'
+
 export const items = [
   {
-    imgSrc:
-      "https://images.deepai.org/art-image/c624481e57654ab189bb24c05ccef9b1/oil-and-gas-construction-commissioning-personnel-thum.jpg",
+    id: 1,
+    imgSrc: img1,
     descr: "Oil and gas",
   },
   {
-    imgSrc:
-      "https://images.deepai.org/art-image/82d9506c252746969361ed02ab3468ef/vajina-of-a-woman-abb82c-thumb.jpg",
+    id: 2,
+    imgSrc: "https://images.deepai.org/art-image/82d9506c252746969361ed02ab3468ef/vajina-of-a-woman-abb82c-thumb.jpg",
     descr: "Oil and gas, Construction, Commissioning, personnel",
   },
   {
+    id: 3,
     imgSrc:
       "https://images.deepai.org/art-image/6e0024d5382648849ba8821f84120d8e/first-contact-with-aliens-96878f-thumb.jpg",
     descr: "random strange woman",
   },
   {
+    id: 4,
     imgSrc:
       "https://images.deepai.org/art-image/bf2d2f8330e446179fbcd6f5a5c95c83/franchesca-and-clarence-so-in-love-thumb.jpg",
     descr: "woman in love",
@@ -88,11 +92,6 @@ export const items = [
     imgSrc:
       "https://images.deepai.org/art-image/cf43e8117e634ce08380fce73582dc68/the-evil-god-turned-good-thumb.jpg",
     descr: "chainsaw man",
-  },
-  {
-    imgSrc:
-      "https://images.deepai.org/art-image/683eab01f70f4bcfa676573f9bcca983/margot-robbie-french-kissing-nicole-kidmans-mommy-mil.jpg",
-    descr: "NICK FUENTES PRESIDENT FUTURE",
   },
   {
     imgSrc:
@@ -261,11 +260,6 @@ export const items = [
   {
     imgSrc:
       "https://images.deepai.org/art-image/284d4e06ff8e4f9484a327e2d2744c36/qi-ra-beautiful-bangs-star-wars-thumb.jpg",
-    descr: "fubuki",
-  },
-  {
-    imgSrc:
-      "https://images.deepai.org/art-image/a4ffde4b7f2b4db5a2b6919875a3f44a/margot-robbie-kissing-nicole-kidmans-mommy-milkers-th.jpg",
     descr: "fubuki",
   },
   {
