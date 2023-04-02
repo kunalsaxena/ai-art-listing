@@ -1,16 +1,24 @@
 import React from 'react'
-import ArtworkList from './components/ArtworkList';
-import Footer from './components/Footer';
-import Navigation from './components/Navigation';
 import './assets/index.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Nopage from './pages/Nopage';
 
 const App = () => {
   return (
-    <div>
-        <Navigation />
-        <ArtworkList />
-        <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout />} >
+          <Route index element={<Home />} />
+          <Route path='about' element={<About />} />
+          <Route path='contact' element={<Contact />} />
+          <Route path='*' element={<Nopage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 };
 
