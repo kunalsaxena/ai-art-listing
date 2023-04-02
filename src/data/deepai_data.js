@@ -179,12 +179,12 @@ export const items = [
   {
     imgSrc:
       "https://images.deepai.org/art-image/4b793ff1790a4d3eb3782b70ba081034/dog-on-a-chainsaw-9dd909-thumb.jpg",
-    descr: "Margot Robbie French kissing Nicole kidmans mommy milkers",
+    descr: "Margot Robbie and Nicole kidmans mommy milkers",
   },
   {
     imgSrc:
       "https://images.deepai.org/art-image/ae4c36dc8da84c1db27e359147f8bafa/frog-76b002-thumb.jpg",
-    descr: "Margot Robbie French kissing Nicole kidmans mommy milkers",
+    descr: "Nicole kidmans mommy",
   },
   {
     imgSrc:
@@ -199,12 +199,12 @@ export const items = [
   {
     imgSrc:
       "https://images.deepai.org/art-image/052cb42be0444d3e95e190f41abaa8bc/dabi-975ff1-thumb.jpg",
-    descr: "portrait of emperor kissing empress in byzantine mosaic style",
+    descr: "portrait of emperor empress in byzantine mosaic style",
   },
   {
     imgSrc:
       "https://images.deepai.org/art-image/d25fd8b5975b4be8afb4f8a6fb7cb586/rick-sanchez-holding-the-master-sword-7e0556-thumb.jpg",
-    descr: "portrait of emperor kissing empress in byzantine mosaic style",
+    descr: "portrait of emperor empress in byzantine mosaic style",
   },
   {
     imgSrc:
@@ -286,12 +286,12 @@ export const items = [
   {
     imgSrc:
       "https://images.deepai.org/art-image/8cf6246003cb439aa0aa032e0f4589eb/portrait-of-emperor-kissing-empress-in-byzantine-mosa.jpg",
-    descr: "Margot Robbie French kissing Nicole kidmans mommy milkers",
+    descr: "Margot Robbie French Nicole kidmans mommy",
   },
   {
     imgSrc:
       "https://images.deepai.org/art-image/df41e32e16fd4f869c349224ba75115a/real-estate-agent-normal-face-thumb.jpg",
-    descr: "Margot Robbie French kissing Nicole kidmans mommy milkers",
+    descr: "Margot Robbie French Nicole kidmans mommy",
   },
   {
     imgSrc:

@@ -35,6 +35,30 @@ body {
     font-size: 1rem;
     border-top-left-radius: 0.3rem;
     border-bottom-right-radius: 1rem;
-    background-color: #ee8432;
+    background-color: #dc3545;
     color: #f1f5f8;
 }
+.model-photo {
+    width: 100%;
+}
+
+/* .page-numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+}
+  
+.page-numbers li {
+cursor: pointer;
+margin: 0 10px;
+border: 1px solid black;
+padding: 5px;
+}
+
+.page-numbers li.active {
+background-color: blue;
+color: white;
+} */
