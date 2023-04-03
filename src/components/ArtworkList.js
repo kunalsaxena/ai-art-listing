@@ -1,17 +1,33 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Artwork from './Artwork'
 import {items} from '../data/deepai_data'
 import Pagination from 'react-bootstrap/Pagination';
+import axios from 'axios';
 
 const ArtworkList = () => {
 
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 12;
-  const indexOfLastItem = currentPage * itemsPerPage;
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentData = items.slice(indexOfFirstItem, indexOfLastItem);
+  const [dataitems, setdataitems] = useState([]);
 
-  const dataList = currentData.map((artwork, index) => 
+  useEffect(() => {
+
+    const getArtworkData = () => {
+      axios
+      .get(`http://localhost:8080/api/v1/artwork/${currentPage - 1}/${itemsPerPage}`)
+      .then(res => {
+        console.log(res.data);
+        setdataitems(res.data);       
+      })
+      .catch(err => {
+        console.log(err);
+      });
+    };
+    getArtworkData();
+  },[currentPage]);
+
+  
+  const dataList = dataitems.map((artwork, index) => 
     <Artwork key={index} {...artwork} number={index} />
   );
 
@@ -38,7 +54,6 @@ const ArtworkList = () => {
       </div>
     </div>
   );
-
 }
 
 export default ArtworkList
